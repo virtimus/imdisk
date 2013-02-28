@@ -1,0 +1,140 @@
+
+LIBRARY imdisk.cpl
+
+EXPORTS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	CPlApplet
+
+	RunDLL_MountFile
+	RunDLL_RemoveDevice
+	RunDLL_SaveImageFile
+
+	MsgBoxPrintF
+
+	MsgBoxLastError
+	ImDiskGetAPIFlags
+	ImDiskSetAPIFlags
+	ImDiskGetPartitionTypeName
+	ImDiskGetOffsetByFileExt
+	ImDiskGetPartitionInformation
+	ImDiskReadFileHandle
+	ImDiskGetPartitionInfoIndirect
+	ImDiskImageContainsISOFS
+	ImDiskImageContainsISOFSIndirect
+	ImDiskStartService
+	ImDiskCreateMountPoint
+	ImDiskRemoveMountPoint
+	ImDiskOpenDeviceByName
+	ImDiskOpenDeviceByNumber
+	ImDiskOpenDeviceByMountPoint
+	ImDiskCheckDriverVersion
+	ImDiskGetVersion
+	ImDiskFindFreeDriveLetter
+	ImDiskGetDeviceList
+	ImDiskQueryDevice
+	ImDiskCreateDevice
+	ImDiskCreateDeviceEx
+	ImDiskForceRemoveDevice
+	ImDiskRemoveDevice
+	ImDiskChangeFlags
+	ImDiskExtendDevice
+	ImDiskSaveImageFile
+	ImDiskGetVolumeSize
+	ImDiskGetFormattedGeometry
+	ImDiskGetFormattedGeometryIndirect
+	ImDiskBuildMBR
+	ImDiskConvertCHSToLBA
+	ImDiskConvertLBAToCHS
+	ImDiskAdjustImageFileSize
+	ImDiskNativePathToWin32
+	ImDiskSaveImageFileInteractive
+
+
